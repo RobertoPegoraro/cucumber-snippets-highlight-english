@@ -6,7 +6,7 @@ Cucumber Snippets e Highlight em Inglês para Sublime Text 3
 ```ruby
 Featue: xxxxx.
 
-Scenário: xxxxx.
+Scenario: xxxxx.
 Given xxxxx.
 When xxxxx.
  And xxxxx.
