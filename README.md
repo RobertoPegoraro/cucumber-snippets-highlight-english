@@ -1,34 +1,28 @@
-Cucumber Snippets e Highlight em Português para Sublime Text 
+Cucumber Snippets e Highlight em Inglês para Sublime Text 3
 ==========================================
 ----
 ## Snippets:
-####cenario:
+####scenario:
 ```ruby
-#language: pt
-#encoding: utf-8
+Featue: xxxxx.
 
-Funcionalidade: xxxxx.
-
-Cenário: xxxxx.
-Dado xxxxx.
-Quando xxxxx.
- E xxxxx.
-Então deve xxxxx.
+Scenário: xxxxx.
+Given xxxxx.
+When xxxxx.
+ And xxxxx.
+Then deve xxxxx.
 ```
-####esquema:
+####outline:
 ```ruby
-#language: pt
-#encoding: utf-8
+Feature: xxxxx.
+Scenario Outline: xxxxx.
 
-Funcionalidade: xxxxx.
-Esquema do Cenário: xxxxx.
+Given xxxxx.
+When xxxxx.
+  And xxxxx.
+Then deve xxxxx.
 
-Dado xxxxx.
-Quando xxxxx.
-  E xxxxx.
-Então deve xxxxx.
-
-Exemplos:
+Examples:
 | cenario | coluna1 | coluna2 | resultado | motivo |
 | 1       | xxxxx   | xxxxx   | xxxxx     | xxxxx  |
 | 2       | xxxxx   | xxxxx   | xxxxx     | xxxxx  |
@@ -39,13 +33,13 @@ Exemplos:
 
 Palavras chaves:
 
-    * Funcionalidade
-    * Esquema do Cenário
-    * Cenário
-    * Dado
-    * Quando
-    * Então
-    * E
-    * Ou
-    * Mas
-    * Exemplos
+    * Feature
+    * Scenario Outline
+    * Scenario
+    * Given
+    * When
+    * Then
+    * And
+    * Or
+    * But
+    * Examples

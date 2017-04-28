@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+Feature: ${1:xxxxx}.
+Scenario Outline: ${2:xxxxx}.
+Given ${3:xxxxx}.
+When ${4:xxxxx} '<${5:xxxxx}>'.
+  And ${6:xxxxx} '<${7:xxxxx}>'.
+Then deve ${8:xxxxx}.
+Examples:
+| cenario | ${5:xxxxx} | ${7:xxxxx} | resultado | motivo |
+| 1       | xxxxx | xxxxx | xxxxx     | xxxxx  |
+| 2       | xxxxx | xxxxx | xxxxx     | xxxxx  |
+| 3       | xxxxx | xxxxx | xxxxx     | xxxxx  |
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>outline</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

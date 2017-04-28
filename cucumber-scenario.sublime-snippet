@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+Feature: ${1:xxxxx}.
+Scenario: ${2:xxxxx}.
+Given ${3:xxxxx}.
+When ${4:xxxxx}.
+  And ${5:xxxxx}.
+Then deve ${6:xxxxx}.
+]]></content>
+<tabTrigger>scenario</tabTrigger>
+</snippet>
