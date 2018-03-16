@@ -8,7 +8,7 @@ contexts:
   main:
     - match: \b(Given|When|Then|And|Or|Feature|Scenario Outline|Scenario|Examples|But)\b
       scope: keyword.control.c
-    - match: '"'
+    - match: '''
       push: string
 
   string:
