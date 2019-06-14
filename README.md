@@ -1,4 +1,4 @@
-Cucumber Snippets e Highlight em Inglês para Sublime Text 3
+Cucumber Snippets and Highlight in English for Sublime Text 3
 ==========================================
 ----
 ## Snippets:
@@ -10,7 +10,7 @@ Scenario: xxxxx.
 Given xxxxx.
 When xxxxx.
  And xxxxx.
-Then deve xxxxx.
+Then xxxxx.
 ```
 ####outline:
 ```ruby
@@ -20,18 +20,18 @@ Scenario Outline: xxxxx.
 Given xxxxx.
 When xxxxx.
   And xxxxx.
-Then deve xxxxx.
+Then xxxxx.
 
 Examples:
-| cenario | coluna1 | coluna2 | resultado | motivo |
-| 1       | xxxxx   | xxxxx   | xxxxx     | xxxxx  |
-| 2       | xxxxx   | xxxxx   | xxxxx     | xxxxx  |
-| 3       | xxxxx   | xxxxx   | xxxxx     | xxxxx  |
+| column1 | column2 |
+| xxxxx   | xxxxx   |
+| xxxxx   | xxxxx   |
+| xxxxx   | xxxxx   |
 ```
 ----
 #### Highlight 
 
-Palavras chaves:
+Key words:
 
     * Feature
     * Scenario Outline
