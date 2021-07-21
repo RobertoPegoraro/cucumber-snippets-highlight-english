@@ -5,7 +5,7 @@ Scenario Outline: ${2:xxxxx}.
 Given ${3:xxxxx}.
 When ${4:xxxxx} '<${5:xxxxx}>'.
   And ${6:xxxxx} '<${7:xxxxx}>'.
-Then deve ${8:xxxxx}.
+Then should ${8:xxxxx}.
 
 Examples:
 | ${5:xxxxx} | ${7:xxxxx} |
